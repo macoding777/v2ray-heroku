@@ -9,4 +9,4 @@ RUN set -ex\
     && apt install -y wget unzip qrencode\
     && chmod +x /entrypoint.sh
 
-CMD /entrypoint.s
+CMD /entrypoint.sh
